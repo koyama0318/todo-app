@@ -7,3 +7,10 @@
 
   # http://127.0.0.1:5000/
 ```
+
+トンネリングツールにngrokを使うと、ローカルのWebサーバーを外部に公開できる。
+
+```
+brew install ngrok/ngrok/ngrok
+ngrok http 5000
+```
